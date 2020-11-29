@@ -2,10 +2,27 @@
     --accent-color: #2196F3;
 }
 
-header {
+.header {
     background-color: #fff;
+    display: flex;
+    height: 80px;
+    width: 1600px;
+    align-content: center;
+    justify-content: space-between;
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
-
+.features-container {
+    box-sizing: border-box;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 215px;
+    padding-right: 215px;
+    width: 1170px;
+    display: block;
+}
 .logo-link {
     font-family: 'Raleway', sans-serif;
     font-weight: 400;
@@ -25,7 +42,7 @@ header {
 }
 
 .links{
-    list-style-type: none;
+    list-style: none;
 }
     
 .nav-links {
@@ -35,6 +52,7 @@ header {
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
+    text-align: center;
 }
 .nav-links-studio{
     text-decoration: none;
@@ -82,7 +100,7 @@ header {
     width: 1600px;
     height: 600px;
     left: 0px;
-    top: 80px;
+    top: 80px
 }
 
 .hero-title{
@@ -98,6 +116,7 @@ header {
     position: absolute;
     top:280px;
     left: 452px;
+    margin-bottom: 30px;
 }
 body {
     background-color: #ffff;
@@ -105,9 +124,27 @@ body {
     font-style: normal;
     font-weight: 500;
     font-size: 14px;
-    list-style-type: none;
+    list-style: none;
 }
 
+.button-index {
+    font-family: "roboto", sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 1.875;
+    text-align: center;
+    letter-spacing: 0.06em;
+    color: #fff;
+    background-color: var(--accent-color);
+    box-shadow: 0px, 4px, 4px, rgba(0,0,0,0.15);
+    border-radius: 4px;
+    position: absolute;
+    width: 200px;
+    height: 50px;
+    left: 700px;
+    top: 430px;
+}
 .button {
     font-family: "roboto", sans-serif;
     font-style: normal;
@@ -125,7 +162,12 @@ body {
     height: 50px;
     left: 700px;
     top: 430px;
-    list-style-type: none;
+    display: inline-block;
+}
+.list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
 }
 .b-heading {
     font-family: 'roboto', sans-serif;
@@ -148,7 +190,9 @@ body {
 }
 
 .picture-list{
-    list-style-type: none;
+    list-style: none;
+    padding: 0;
+    margin: 0;
 }
 .pictures-heading{
    font-family: 'roboto', sans-serif;
@@ -176,12 +220,36 @@ body {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.1875;
+    text-align: left;
+    letter-spacing: 0.03em;
+    color: #212121;
+    list-style: none;
+    padding: 20px 24px;
+}
+.name-index{
+    font-family: 'roboto', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.1875;
     text-align: center;
     letter-spacing: 0.03em;
     color: #212121;
-    list-style-type: none;
+    list-style: none;
 }
 .description{
+    font-family: 'roboto', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 1.1875;
+    text-align: left;
+    letter-spacing: 0.03em;
+    color: #757575;
+    list-style: none;
+    padding: 20px 24px;
+}
+.description-index{
     font-family: 'roboto', sans-serif;
     font-style: normal;
     font-weight: normal;
@@ -190,11 +258,12 @@ body {
     text-align: center;
     letter-spacing: 0.03em;
     color: #757575;
-    list-style-type: none;
+    list-style: none;
 }
 .footer{
     position:absolute;
     background: #2F303A;
+    padding: 50px;
 }
 .address{
     font-family: 'roboto', sans-serif;
@@ -224,8 +293,9 @@ body {
     text-align: center;
     letter-spacing: 0.03em;
     color: #212121;
-    background-color: #F5F4FA; 
-    list-style-type: none;
+    list-style: none;
+    box-sizing: border-box;
+    display: list-item;
 }
 .main-button{
     font-family: "roboto", sans-serif;
@@ -239,10 +309,26 @@ body {
     background-color: var(--accent-color);
     box-shadow: 0px 3px 1px rgba(0,0,0,0.1), 0px 1px 2px rgba(0,0,0,0.08), 0px, 2px, 2px rgba(0,0,0,0.12);
     border-radius: 4px;
-    list-style-type: none;
+    list-style: none;
+}
+.flex-container {
+    display: flex;
+    width: 1170px;
+    padding-left: 227px;
+    padding-right: 203px;
+    margin-left: auto;
+    margin-right: auto;
+    flex-wrap: wrap;
+}
+.card {
+    background: #fff;
+    border: 1px solid #eee;
+    box-sizing: border-box;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    width: 370px;
 }
 
 .Studio-footer{
     color: #fff;
 }
-
