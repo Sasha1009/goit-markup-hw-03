@@ -26,7 +26,8 @@ p {
     height: 80px;
     width: 100%;
     align-items: center;
-    padding-left: 215px;
+    justify-content: center;
+    padding-left: 161px;
 }
 .features-container {
     box-sizing: border-box;
@@ -44,8 +45,7 @@ p {
     vertical-align: top;
     letter-spacing: 0.03em;
     text-decoration: none;
-    margin-left: 215px;
-    padding-right: 93px;
+ 
 }
 .Web {
     color: var(--accent-color);
@@ -73,43 +73,41 @@ p {
 .nav-links-studio-one{
     text-decoration: none;
     color: var(--accent-color);
-    padding-top: 32px;
-    padding-bottom: 32px;
-    margin-left: 453px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-left: 339px;
     padding-right: 50px;
 }
 .nav-links-studio{
     text-decoration: none;
     color: #212121;
-    padding-top: 32px;
-    padding-bottom: 32px;
+    padding-top: 15px;
+    padding-bottom: 15px;
     padding-right: 50px;
 }
 .nav-links-portfolio{
     text-decoration: none;
     color: #212121;
-    padding-top: 32px;
-    padding-bottom: 32px;
+    padding-top: 15px;
+    padding-bottom: 15px;
     padding-right: 50px;
 }
 .nav-links-portfolio-two{
     text-decoration: none;
     color: var(--accent-color);
-    padding-top: 32px;
-    padding-bottom: 32px;
+    padding-top: 15px;
+    padding-bottom: 15px;
     padding-right: 50px;
 }
 
 .nav-links-contacts{
     text-decoration: none;
     color: #212121;
-    padding-top: 32px;
-    padding-bottom: 32px;
-    padding-right: 100px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-right: 50px;
 
-}
-.nav-links:hover,
-.nav-links:focus, 
+} 
 
 .email{
     font-family: "roboto", sans-serif;
@@ -120,8 +118,8 @@ p {
     letter-spacing: 0.02em;
     color: var(--accent-color);
     text-decoration: none;
-    padding-top: 32px;
-    padding-bottom: 32px;
+    padding-top: 15px;
+    padding-bottom: 15px;
     padding-right: 50px;
 }
 .address-header:hover,
@@ -144,16 +142,16 @@ p {
     letter-spacing: 0.02em;
     color: #757575;
     text-decoration: none;
-    padding-top: 32px;
-    padding-bottom: 32px;
-    margin-right: 215px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-right: 161px;
 }
 
 .hero {
     background-color: #2f303a;
     width: 100%;
-    height: 600px;
-    padding-bottom: 94px;
+    padding-top: 70px;
+    padding-bottom: 70px;
 }
 
 .hero-title{
@@ -167,11 +165,10 @@ p {
     Text-transform: Uppercase;
     color: #ffff;
     padding-bottom: 280px;
-    padding-top:200px;
-    margin-right: 452px;
-    margin-left: 452px;
+    padding-top:280px;
+    margin-right: 239px;
+    margin-left: 239px;
     width: 696px;
-    height: 120px;
     justify-content: center;
     align-items: center;
     display: inline-flex;
@@ -184,8 +181,7 @@ body {
     font-weight: 500;
     font-size: 14px;
     list-style: none;
-    width: 1600px;
-    height: 2349px;
+    width: 1200px;
 }
 
 .button-index {
@@ -203,8 +199,8 @@ body {
     position: absolute;
     width: 200px;
     height: 50px;
-    left: 700px;
-    top: 430px;
+    left: 500px;
+    top: 630px;
     cursor: pointer;
 }
 .button {
@@ -233,8 +229,8 @@ body {
     padding-top: 94px;
     padding-bottom: 94px;
     padding-right: 30px;
-    margin-left: 215px;
-    margin-right: 215px;
+    margin-left: 100px;
+    margin-right: 100px;
     justify-content: space-between;
     display: flex;
 }
@@ -274,11 +270,9 @@ body {
 .picture-list{
     list-style: none;
     padding-bottom: 94px;
-    padding-right: 30px;
-    margin-left: 215px;
-    margin-right: 215px;
-    margin-top: 0px;
-    justify-content: space-between;
+    padding-right: 15px;
+    margin-left: 75px;
+    margin-right: 75px;
     display: flex;
     flex-wrap: wrap;
 }
@@ -320,7 +314,7 @@ body {
     color: #212121;
     list-style: none;
     padding: 20px 24px;
-    padding-right: 30px;
+    padding-right: 15px;
 }
 .name-index{
     font-family: 'roboto', sans-serif;
@@ -351,7 +345,7 @@ body {
     color: #757575;
     list-style: none;
     padding: 20px 24px;
-    padding-right: 30px;
+    padding-right: 15px;
 }
 .description-index{
     font-family: 'roboto', sans-serif;
@@ -370,8 +364,8 @@ body {
     position:absolute;
     background: #2F303A;
     padding: 50px;
-    height: 252px;
-    width: 1600px;
+    padding-top: 50px;
+    width: 1200px;
 }
 .address{
     font-family: 'roboto', sans-serif;
@@ -382,7 +376,6 @@ body {
     letter-spacing: 0.03em;
     color: #ffff;
     padding-top: 25px;
-    padding-left: 215px;
 }
 .contact-info{
     font-family: 'roboto', sans-serif;
@@ -394,7 +387,6 @@ body {
     color: rgba(255,255,255,0.6);
     text-decoration: none;
     padding-top:10px;
-    padding-left: 215px;
     display: block;
 }
 .buttons {
@@ -432,8 +424,8 @@ body {
 .button-container {
     width: 1170px;
     padding-bottom: 50px;
-    margin-left: 495px;
-    margin-right: 494px;
+    margin-left: 350px;
+    margin-right: 350px;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
@@ -442,10 +434,9 @@ body {
     cursor: pointer;
 }
 .card-container{
-    width: 1600px;
-    padding-right: 30px;
+    width: 1200px;
+    padding-right: 15px;
     padding-top: 50px;
-    padding-right: 30px;
 }
 
 .card {
@@ -458,8 +449,7 @@ body {
     display: block;
 }
 .container{
-    width: 1600px;
-    height: 648px;
+    width: 1200px;
     padding-right: 30px;
     background: #F5F4FA;
     padding-top:94px;
