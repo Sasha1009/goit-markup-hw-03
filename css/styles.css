@@ -103,6 +103,17 @@ p {
     text-decoration: none;
     padding-right:50px;
 }
+.email-two{
+    font-family: "roboto", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: #757575;
+    text-decoration: none;
+    padding-right:50px;
+}
 .address-header:hover,
 .address-header:focus,
 
@@ -240,11 +251,11 @@ body {
 }
 .picture-list{
     list-style: none;
-    margin-left: -30px;
     margin-top: -30px;
     display: flex;
     flex-wrap: wrap;
     padding-bottom: 94px;
+    padding-right: 30px;
 }
 .pictures-heading{
    font-family: 'roboto', sans-serif;
@@ -299,9 +310,14 @@ body {
     padding-bottom: 10px;
 }
 .image{
-    padding-right: 30px;
-    
+    width: 100%;
+    height: auto;
+    display: block;
 }
+.image-one{
+    padding-right: 30px;
+}
+
 .description{
     font-family: 'roboto', sans-serif;
     font-style: normal;
@@ -387,13 +403,25 @@ body {
 .button-container {
     padding-left: 495px;
     padding-bottom: 50px;
-    padding-top: 94px;
     cursor: pointer;
 }
 .card-container{
     width: 1200px;
-    padding-right: 15px;
     padding-top: 50px;
+    padding: 0 15px;
+    margin: 0 auto;
+    justify-content:space-between;
+}
+.card-two{
+    background: #fff;
+    border: 1px solid #eee;
+    box-sizing: border-box;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    width: 100%;
+    margin: 0;
+    flex-basis: calc(100%/3);
+    padding-right: 30px;
 }
 
 .card {
@@ -404,7 +432,6 @@ body {
     border-bottom-left-radius: 5px;
     width: 100%;
     margin: 0 15px;
-   
 }
 .container{
     width: auto;
