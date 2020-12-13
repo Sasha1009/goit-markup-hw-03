@@ -25,7 +25,6 @@ p {
     align-items:center;
     justify-content: space-between;
     padding: 25px;
-
 }
 .features-container {
     box-sizing: border-box;
@@ -43,7 +42,7 @@ p {
     vertical-align: top;
     letter-spacing: 0.03em;
     text-decoration: none;
- 
+    padding-right: 50px;
 }
 .Web {
     color: var(--accent-color);
@@ -71,15 +70,13 @@ p {
     display:inline-flex;
     justify-content: space-between;
     align-items: center;
-    
+    padding-right: 50px;
 }
 .nav-links-studio-one{
     text-decoration: none;
     color: var(--accent-color);
     display: flex;
     align-items: center;
-}
-
 }
 .nav-links-portfolio-two{
     text-decoration: none;
@@ -104,10 +101,14 @@ p {
     letter-spacing: 0.02em;
     color: var(--accent-color);
     text-decoration: none;
+    padding-right:50px;
 }
 .address-header:hover,
 .address-header:focus,
 
+.address-header{
+    padding-left:331px;
+}
 .phone{
     font-family: "roboto", sans-serif;
     font-style: normal;
@@ -126,6 +127,8 @@ p {
     margin: 0 auto;
     padding: 200px 0;
     text-align: center;
+    padding-left: 452px;
+    padding-right: 452px;
 }
 
 .hero-title{
@@ -141,8 +144,8 @@ p {
     width: 696px;
     justify-content: center;
     align-items: center;
-    display: inline-flex;
     flex-wrap: wrap;
+    padding-bottom: 30px;
 }
 body {
     background-color: #ffff;
@@ -171,6 +174,8 @@ body {
     left: 500px;
     top: 630px;
     cursor: pointer;
+    justify-content: center;
+    align-items: center;
 }
 .button {
     font-family: "roboto", sans-serif;
@@ -189,7 +194,6 @@ body {
     left: 700px;
     top: 430px;
     cursor: pointer;
-    padding-right: 8px;
 }
 .list {
     list-style: none;
@@ -267,7 +271,6 @@ body {
     width: 100%;
     height: auto;
     display: block;
-    padding-right: 30px;
 }
 .name{
     font-family: 'roboto', sans-serif;
@@ -292,7 +295,6 @@ body {
     letter-spacing: 0.03em;
     color: #212121;
     list-style: none;
-    padding-right: 30px;
     padding-top: 30px;
     padding-bottom: 10px;
 }
@@ -323,7 +325,6 @@ body {
     letter-spacing: 0.03em;
     color: #757575;
     list-style: none;
-    padding-right: 30px;
     padding-bottom: 30px;
 }
 .footer{
@@ -364,10 +365,7 @@ body {
     color: #212121;
     list-style: none;
     flex-wrap: wrap;
-    margin: 0px;
-    padding: 0px;
-    display: flex;
-    justify-content: center;
+    display: inline-block;
     padding-right: 8px;
     cursor: pointer;
 }
@@ -387,8 +385,9 @@ body {
     cursor: pointer;
 }
 .button-container {
-    width: 1200px;
-    margin: 0 auto;
+    padding-left: 495px;
+    padding-bottom: 50px;
+    padding-top: 94px;
     cursor: pointer;
 }
 .card-container{
@@ -403,12 +402,12 @@ body {
     box-sizing: border-box;
     border-bottom-right-radius: 5px;
     border-bottom-left-radius: 5px;
-    width: 370px;
+    width: 100%;
     margin: 0 15px;
-    display: block;
+   
 }
 .container{
-    width: 1200px;
+    width: auto;
     padding-right: 30px;
     background: #F5F4FA;
     padding-top:94px;
