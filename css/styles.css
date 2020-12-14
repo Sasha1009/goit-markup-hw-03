@@ -25,10 +25,15 @@ p {
     align-items:center;
     justify-content: space-between;
     padding: 25px;
+    border-bottom:  1px solid #757575;
 }
 .features-container {
     box-sizing: border-box;
-    width: 1170px;
+    width: 1200px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
    justify-content: space-between;
    align-content: space-evenly;
 }
@@ -71,6 +76,7 @@ p {
     justify-content: space-between;
     align-items: center;
     padding-right: 50px;
+    text-decoration: none;
 }
 .nav-links-studio-one{
     text-decoration: none;
@@ -135,11 +141,9 @@ p {
     background-color: #2f303a;
     width: 100%;
     padding-top: 70px;
-    margin: 0 auto;
+    margin: auto;
     padding: 200px 0;
     text-align: center;
-    padding-left: 452px;
-    padding-right: 452px;
 }
 
 .hero-title{
@@ -185,8 +189,6 @@ body {
     left: 500px;
     top: 630px;
     cursor: pointer;
-    justify-content: center;
-    align-items: center;
 }
 .button {
     font-family: "roboto", sans-serif;
@@ -400,17 +402,19 @@ body {
     list-style: none;
     cursor: pointer;
 }
-.button-container {
+.button-section {
     padding-left: 495px;
     padding-bottom: 50px;
     cursor: pointer;
 }
 .card-container{
-    width: 1200px;
-    padding-top: 50px;
-    padding: 0 15px;
-    margin: 0 auto;
     justify-content:space-between;
+    padding-top: 94px;
+    width: 1200px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
 }
 .card-two{
     background: #fff;
@@ -434,10 +438,13 @@ body {
     margin: 0 15px;
 }
 .container{
-    width: auto;
-    padding-right: 30px;
     background: #F5F4FA;
     padding-top:94px;
+    width: 1200px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
 }
 .Studio-footer{
     color: #fff;
