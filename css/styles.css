@@ -83,18 +83,21 @@ p {
     align-items: center;
     padding-right: 50px;
     text-decoration: none;
+    color: #212121;
 }
 .nav-links-studio-one{
     text-decoration: none;
     color: var(--accent-color);
     display: flex;
     align-items: center;
+    padding-right: 50px;
 }
 .nav-links-portfolio-two{
     text-decoration: none;
     color: var(--accent-color);
     display: flex;
     align-items: center;
+    padding-right: 50px;
 }
 
 .nav-links-contacts{
@@ -129,6 +132,11 @@ p {
 .address-header:hover,
 .address-header:focus,
 
+.address-header{
+    display: inline;
+    width: 50%;
+}
+
 .phone{
     font-family: "roboto", sans-serif;
     font-style: normal;
@@ -138,6 +146,7 @@ p {
     letter-spacing: 0.02em;
     color: #757575;
     text-decoration: none;
+    display: inline-block;
 }   
 
 .hero {
