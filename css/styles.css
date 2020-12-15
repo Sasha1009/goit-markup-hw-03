@@ -20,12 +20,18 @@ p {
   margin: 0;
 }
 
-.header {
+.header-portfolio{
     display:flex;
     align-items:center;
     justify-content: space-between;
     padding: 25px;
     border-bottom:  1px solid #757575;
+}
+.header {
+    display:flex;
+    align-items:center;
+    justify-content: space-between;
+    padding: 25px;
 }
 .features-container {
     box-sizing: border-box;
