@@ -299,12 +299,10 @@ body {
     font-weight: 500;
     font-size: 18px;
     line-height: 1.1875;
-    text-align: left;
     letter-spacing: 0.03em;
     color: #212121;
     list-style: none;
-    padding: 20px 24px;
-    padding-right: 15px;
+    margin-bottom: 10px;
 }
 .name-index{
     font-family: 'roboto', sans-serif;
@@ -334,13 +332,10 @@ body {
     font-style: normal;
     font-weight: normal;
     font-size: 16px;
-    line-height: 1.1875;
-    text-align: left;
     letter-spacing: 0.03em;
     color: #757575;
     list-style: none;
-    padding: 20px 24px;
-    padding-right: 15px;
+    line-height: 1.1875;
 }
 .description-index{
     font-family: 'roboto', sans-serif;
@@ -431,6 +426,13 @@ body {
     padding-right: 15px;
     margin-left: auto;
     margin-right: auto;
+}
+.card-description{
+    padding: 20px 24px;
+    padding-right: 15px;
+    width: 370px;
+    height: 110px;
+    text-align: left;
 }
 .card-two{
     border: 1px solid #eee;
