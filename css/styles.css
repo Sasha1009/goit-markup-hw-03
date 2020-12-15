@@ -23,14 +23,14 @@ p {
 .header-portfolio{
     display:flex;
     align-items:center;
-    justify-content: space-between;
+    justify-content: center;
     padding: 25px;
     border-bottom:  1px solid #757575;
 }
 .header {
     display:flex;
     align-items:center;
-    justify-content: space-between;
+    justify-content: center;
     padding: 25px;
 }
 .features-container {
@@ -40,8 +40,7 @@ p {
     padding-right: 15px;
     margin-left: auto;
     margin-right: auto;
-   justify-content: space-between;
-   align-content: space-evenly;
+   justify-content: center;
 }
 .logo-link {
     font-family: 'Raleway', sans-serif;
